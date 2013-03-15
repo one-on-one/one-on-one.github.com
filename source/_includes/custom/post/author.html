@@ -1,0 +1,32 @@
+{% if post.author %}
+  {% assign author = post.author %}
+{% elsif page.author %}
+  {% assign author = page.author %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+{% if author %}
+<div class="byline author vcard">
+  <img src="http://www.gravatar.com/avatar/{{page.gravatar}}?s=75" class="avatar" />
+  <div class="info">
+    <div class="subdued">written by</div>
+    <div class="fn">{{ author }}</div>
+    {% if page.github %}
+    <a href="https://github.com/{{ page.github }}" target="_blank">
+      <i class="icon-github-alt"></i>
+    </a>
+    {% endif %}
+    {% if page.twitter %}
+    <a href="https://twitter.com/{{ page.twitter }}" target="_blank">
+      <i class="icon-twitter"></i>
+    </a>
+    {% endif %}
+    {% if page.linkedin %}
+    <a href="http://www.linkedin.com/profile/view?id={{ page.linkedin }}" target="_blank">
+      <i class="icon-linkedin"></i>
+    </a>
+    {% endif %}
+  </div>
+</div>
+<div class="clear"></div>
+{% endif %}

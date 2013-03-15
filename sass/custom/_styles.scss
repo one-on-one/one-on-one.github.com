@@ -1,2 +1,57 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+html {
+  background: #DCDCDC url('/images/noise.png?1363303172') top left;
+}
+
+.subdued {
+  opacity: 0.4;
+  font-size: 90%;
+}
+
+.clear {
+  clear: both;
+}
+
+article {
+  .byline {
+    &.author {
+      &.vcard {
+        border-top: solid 1px #E0E0E0;
+        padding-top: 16px;
+        * {
+          font-family: $serif;
+        }
+        img {
+          &.avatar {
+            height: 75px;
+            width: 75px;
+            border: none;
+            $radius: 75px;
+            -webkit-border-radius: $radius;
+            -moz-border-radius: $radius;
+            border-radius: $radius;
+            float: left;
+            margin-right: 10px;
+          }
+        }
+        .info {
+          float: left;
+        }
+        a {
+          opacity: 0.6;
+          text-decoration: none;
+          display: inline;
+          margin: 0;
+          white-space: nowrap;
+          i[class^=icon-] {
+            font-family: FontAwesome;
+            display: inline;
+          }
+        }
+      }
+    }
+  }
+}
+
