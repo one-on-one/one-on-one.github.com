@@ -117,6 +117,17 @@ Show on the home page.
 Only shows on the article page.
 ```
 
+### Previewing
+
+To preview your post, run the following command from a shell.
+
+```
+rake preview
+```
+
+Then navigate to [http://localhost:4000](http://localhost:4000) to view your article.
+Simply refresh the browser window as you make changes.
+
 ### Publishing
 
 Once you have finished writing. 
@@ -194,6 +205,6 @@ layout: custom_post
 ---
 ```
 
-These pain points are why I recommend moving to a vanilla Jekyll installation.
+These pain points are why I recommend moving to a vanilla Jekyll solution.
 
 Enjoy!
