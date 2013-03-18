@@ -191,7 +191,7 @@ At first glance it seems possible to override the important files defined in the
 The problem is that not all files are mirrored in the custom directory.
 Also, the naming convention and file intent varies between the two directories.
 
-This leads to confusion. I've found it too restrictive.
+This leads to confusion. It's also too restrictive.
 
 In order to get around the limitations, I've started adding new layouts to the `source/_layouts` directory.
 I use the convention, `custom_ORIGINAL_NAME.html` for the new layouts.
