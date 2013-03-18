@@ -114,7 +114,8 @@ Simply commit your article to the git repo then publish with rake.
 ```
 git commit -am "Wrote an article."
 git push origin source
-rake push
+rake generate
+rake deploy
 ```
 
 That's it! Now get to writing.
