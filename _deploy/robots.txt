@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://one-on-one.github.com/sitemap.xml 
