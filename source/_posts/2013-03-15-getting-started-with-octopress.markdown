@@ -130,8 +130,7 @@ Simply refresh the browser window as you make changes.
 
 ### Publishing
 
-Once you have finished writing. 
-Simply commit your article to the git repo then publish with rake.
+Once you have finished writing, commit your article to the git repo. Then publish with rake.
 
 ```
 git commit -am "Wrote an article."
