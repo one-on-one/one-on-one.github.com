@@ -48,6 +48,8 @@ rake -T
 
 The last command lists the rake tasks that Octopress makes available to you.
 
+<!-- more -->
+
 ## Writing
 
 You can write blog articles using your favorite text editor.
@@ -105,6 +107,16 @@ These entries must be manually added.
 - **linkedin** the author's Linked In id
 
 After you have taken care of the YAML front matter, simply write your article using [Markdown](http://daringfireball.net/projects/markdown/) syntax.
+
+If you don't want the entire article to show on the index page, simply add a `more` flag to break the content apart.
+
+```
+Show on the home page.
+
+<!-- more -->
+
+Only shows on the article page.
+```
 
 ### Publishing
 
@@ -166,11 +178,11 @@ There is a `custom` directory under the `source/_includes` directory.
 
 The intent is to isolate markup overrides to things that live in the custom directory.
 
-At first glance it seems possible to override the important files defined in the includes directory itself.
+At first glance it seems possible to override the important files defined in the includes directory.
 The problem is that not all files are mirrored in the custom directory.
 Also, the naming convention and file intent varies between the two directories.
 
-This leads to confusion and I've found it too restrictive.
+This leads to confusion. I've found it too restrictive.
 
 In order to get around the limitations, I've started adding new layouts to the `source/_layouts` directory.
 I use the convention, `custom_ORIGINAL_NAME.html` for the new layouts.
