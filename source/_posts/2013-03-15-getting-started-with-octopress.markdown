@@ -16,8 +16,7 @@ linkedin: 2951631
 
 [Octopress](http://octopress.org/) is an **out of the box** blogging solution that sits atop [Jekyll](https://github.com/mojombo/jekyll)
 *a static site generator*.
-It's great for folks who want to get up and running quickly,
-but that's where my praise ends.
+It's great for folks who want to quickly get a blog up and running on [Github](https://github.com/).
 
 ### The bad
 
