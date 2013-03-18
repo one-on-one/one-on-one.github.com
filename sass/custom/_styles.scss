@@ -14,6 +14,14 @@ html {
   clear: both;
 }
 
+pre {
+  code {
+    * {
+      font-size: 18px;
+    }
+  }
+}
+
 article {
   .byline {
     &.author {
