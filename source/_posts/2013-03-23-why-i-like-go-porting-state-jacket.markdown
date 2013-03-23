@@ -3,11 +3,12 @@ layout: custom_post
 title: "Why I like Go: Porting Ruby's State Jacket"
 date: 2013-03-23 09:51
 comments: true
+categories: [ruby, go, state machine]
+
 author: Joshua Bowles
 gravatar: 9608da7db688950cfd161f51feb648ba
 github: jbowles
 twitter: bowlescompling
-categories: [ruby, go, state machine]
 ---
 I'm fairly new to professional software engineering and my start was not typical. I first started in acadmeia with Prolog and Lisp; my background is in formal/mathematical philosophy and linguistics. In the last few months I have spent concentrated blocks of time on learning Nodejs, Clojure, Scala, and now Go.
 
@@ -18,7 +19,6 @@ Beside the academic and professional development benefits of doing this, I have 
 Don't get me wrong, I would love to do this in Ruby. I tried a couple times and did not like it. Additionally, I do not want to invest in Python given that it's so similar to Ruby. I'm not going to compare all the pros and cons of the different langauges mentioned in this post (you can find enough of that fud on HackerNews), instead, let's just explain my choices as highly personal and motivated by what felt like was the right way for me.
 
 I was initially drawn to Clojure because it is virtually the only chance a developer has of getting paid to work with a Lisp, and then switched efforts to Scala because it's more realistic to convince your team to do something in Scala than it is Clojure. Nodejs is great and V8 is blazing, but once I read through a [Go Codewalk for Markov Chain random text generation](http://golang.org/doc/codewalk/markov/) I was hooked. It seemed to strike the right balance between:
-
 * High level API of Ruby **AND** low level concerns of C
 * *the right thing* Lisp **AND** *worse is better* C/Unix
   * See, for example [The Rise of "Worse is Better"](http://www.jwz.org/doc/worse-is-better.html)
