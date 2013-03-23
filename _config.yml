@@ -53,8 +53,9 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 #   3rd Party Settings    #
 # ----------------------- #
 
-# tapi service
-# tapir_token: xxxxxx
+# tapir service
+
+tapir_token: 514dccb93f61b0121e000375
 
 # Github repositories
 github_user:
