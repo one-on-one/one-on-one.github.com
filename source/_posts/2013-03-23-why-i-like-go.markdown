@@ -10,7 +10,7 @@ gravatar: 9608da7db688950cfd161f51feb648ba
 github: jbowles
 twitter: bowlescompling
 ---
-I'm fairly new to professional software engineering and my start was not typical. I first started in acadmeia with Prolog and Lisp; my background is in formal/mathematical philosophy and linguistics. In the last few months I have spent concentrated blocks of time on learning Nodejs, Clojure, Scala, and now Go.
+I'm fairly new to professional software engineering and my start was not typical. I first started in academia with Prolog and Lisp; my background is in formal/mathematical philosophy and linguistics. In the last few months I have spent concentrated blocks of time on learning Nodejs, Clojure, Scala, and now Go.
 
 Beside the academic and professional development benefits of doing this, I have a practical reason: I dream of building a very fast, efficient, "smart", and easy to use logging tool. By "smart" I mean applying machine learning and natural language processing to the semi-structured data found in production logs. This means I need support for large matrix multiplication, among other things. Ruby and Python simply do not fit the bill (for me).
 
