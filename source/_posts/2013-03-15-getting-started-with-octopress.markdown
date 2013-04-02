@@ -207,3 +207,5 @@ layout: custom_post
 These pain points are why I recommend moving to a vanilla Jekyll solution.
 
 Enjoy!
+
+...
