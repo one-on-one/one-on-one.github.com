@@ -42,8 +42,11 @@ Run the following commands in your shell.
 git clone git@github.com:one-on-one/one-on-one.github.com.git
 cd one-on-one.github.com
 bundle
+rake setup_github_pages[git@github.com:one-on-one/one-on-one.github.com.git]
 rake -T
 ```
+
+**zsh users**: You will want to run `rake setup_github_pages[git@github.com:one-on-one/one-on-one.github.com.git]`
 
 The last command lists the rake tasks that Octopress makes available to you.
 
