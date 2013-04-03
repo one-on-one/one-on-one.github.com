@@ -17,8 +17,9 @@ Beside the academic and professional development benefits of doing this, I have 
 If you just want to see code, the initial finished version is up on github now at [SateJacket Port](https://github.com/jbowles/state_jacket).
 
 You can also find similar projects:
-* [Brian Johnson's Go port of the Ruby code](https://github.com/whap/statejacket)
-* [Brent Burgyone's NodeJS port of the Ruby code](https://github.com/brentburgoyne/state-jacket-js)
+
+* [Brian Johnson's Go port of Ruby SateJacket](https://github.com/whap/statejacket)
+* [Brent Burgyone's NodeJS port of Ruby StateJacket](https://github.com/brentburgoyne/state-jacket-js)
 
 <!-- more -->
 
