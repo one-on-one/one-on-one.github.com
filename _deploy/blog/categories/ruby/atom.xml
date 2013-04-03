@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ruby | 1:1 Engineering]]></title>
+  <link href="http://one-on-one.github.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://one-on-one.github.com/"/>
+  <updated>2013-04-02T17:55:50-06:00</updated>
+  <id>http://one-on-one.github.com/</id>
+  <author>
+    <name><![CDATA[1:1 Engineering]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[what can devops do for you]]></title>
+    <link href="http://one-on-one.github.com/blog/2013/03/27/what-can-devops-do-for-you/"/>
+    <updated>2013-03-27T08:48:00-06:00</updated>
+    <id>http://one-on-one.github.com/blog/2013/03/27/what-can-devops-do-for-you</id>
+    <content type="html"><![CDATA[<p>DevOps is something most software engineers have always had to do. It is a fairly new term that reflects the move to more sophistication in tools and recognition that this sophistication is starting to demand its own specialization.</p>
+
+<p>More text here will be filled with actual content after I get deployment to work.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why I like Go: Porting Ruby's State Jacket]]></title>
+    <link href="http://one-on-one.github.com/blog/2013/03/23/why-i-like-go/"/>
+    <updated>2013-03-23T09:51:00-06:00</updated>
+    <id>http://one-on-one.github.com/blog/2013/03/23/why-i-like-go</id>
+    <content type="html"><![CDATA[<p>I'm fairly new to professional software engineering and my start was not typical. I first started in academia with Prolog and Lisp; my background is in formal/mathematical philosophy and linguistics. In the last few months I have spent concentrated blocks of time on learning Nodejs, Clojure, Scala, and now Go.</p>
+
+<p>Beside the academic and professional development benefits of doing this, I have a practical reason: I dream of building a very fast, efficient, "smart", and easy to use logging tool. By "smart" I mean applying machine learning and natural language processing to the semi-structured data found in production logs. This means I need support for large matrix multiplication, among other things. Ruby and Python simply do not fit the bill (for me).</p>
+
+<!-- more -->
+
+
+<p>Don't get me wrong, I would love to do this in Ruby. I tried a couple times and did not like it. Additionally, I do not want to invest in Python given that it's so similar to Ruby. I'm not going to compare all the pros and cons of the different langauges mentioned in this post (you can find enough of that fud on HackerNews), instead, let's just explain my choices as highly personal and motivated by what felt like was the right way for me.</p>
+
+<p>I was initially drawn to Clojure because it is virtually the only chance a developer has of getting paid to work with a Lisp, and then switched efforts to Scala because it's more realistic to convince your team to do something in Scala than it is Clojure. Nodejs is great and V8 is blazing, but once I read through a <a href="http://golang.org/doc/codewalk/markov/">Go Codewalk for Markov Chain random text generation</a> I was hooked. It seemed to strike the right balance between:</p>
+
+<ul>
+<li>High level API of Ruby <strong>AND</strong> low level concerns of C</li>
+<li><em>the right thing</em> Lisp <strong>AND</strong> <em>worse is better</em> C/Unix
+
+<ul>
+<li>See, for example <a href="http://www.jwz.org/doc/worse-is-better.html">The Rise of "Worse is Better"</a></li>
+</ul>
+</li>
+<li>Feeling excited about <strong>AND</strong> responsible for good engineering decisions</li>
+</ul>
+
+
+<h2>Porting Ruby to Go</h2>
+
+<p><a href="https://github.com/hopsoft/state_jacket">State Jacket</a> is a Ruby library for helping to "Intuitively define state machine like states and transitions".</p>
+
+<p><blockquote><p>StateJacket simplifies things by isolating the management of states &amp; transitions. Events are left out, making it much easier to reason about what states exist and how they transition to other states.</p><footer><strong>Nate Hopkins, State Jacket</strong> <cite><a href='https://github.com/hopsoft/state_jacket/blob/master/README.md'>README</a></cite></footer></blockquote></p>
+
+<p>I spent about 6 hours initially porting 70 lines of Ruby to 70 lines of Go. Much of my time was spent in figuring out the right structure for the data/object; the rest with familiarizing myself with Go idioms. It is a simple project but I want to spend more time refining it until I create a Go package for it, for now you can see my initial work here:</p>
+
+<p><div><script src='https://gist.github.com/5228042.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+]]></content>
+  </entry>
+  
+</feed>
