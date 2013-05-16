@@ -3,9 +3,8 @@ layout: post
 title: "Documenting Github Projects"
 date: 2013-05-16 09:30
 comments: true
-categories:
-  - github
-  - documentation
+categories: [github, documentation]
+
 author: Nathan Hopkins
 gravatar: 254ec240c9143768df8ec27182764cad
 github: hopsoft
