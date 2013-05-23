@@ -133,13 +133,23 @@ Simply refresh the browser window as you make changes.
 
 ### Publishing
 
-Once you have finished writing, commit your article to the git repo. Then publish with rake.
+Before you can publish, you must run the following rake task.
+
+```
+rake setup_github_pages[git@github.com:one-on-one/one-on-one.github.com.git]
+```
+
+Next commit your article to the git repo.
 
 ```
 git commit -am "Wrote an article."
 git push origin source
-rake generate
-rake deploy
+```
+
+Then publish with rake.
+
+```
+rake gen_deploy
 ```
 
 That's it! Now get to writing.
