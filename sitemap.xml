@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://one-on-one.github.com/blog/2013/03/15/getting-started-with-octopress/</loc>
+        <lastmod>2013-05-23T11:49:04-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://one-on-one.github.com/blog/2013/03/23/why-i-like-go/</loc>
+        <lastmod>2013-05-23T10:45:39-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://one-on-one.github.com/blog/2013/05/16/documenting-github-projects/</loc>
+        <lastmod>2013-05-23T10:45:39-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://one-on-one.github.com/blog/2013/05/16/engineering-practices-at-1-1/</loc>
+        <lastmod>2013-05-23T11:34:31-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://one-on-one.github.com/blog/archives/</loc>
+        <lastmod>2013-05-23T11:49:04-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://one-on-one.github.com/</loc>
+        <lastmod>2013-05-23T11:49:04-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://one-on-one.github.com/robots.txt</loc>
+        <lastmod>2013-05-23T10:45:39-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://one-on-one.github.com/search.html</loc>
+        <lastmod>2013-05-23T10:45:39-06:00</lastmod>
+    </url>
+</urlset>

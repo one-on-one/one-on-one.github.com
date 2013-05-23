@@ -1,1 +1,453 @@
-My Octopress Page is coming soon &hellip;
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>1:1 Engineering</title>
+  <meta name="author" content="1:1 Engineering">
+
+  
+  <meta name="description" content="Expediency often rules the day in business, but at 1:1 we&#8217;ve establised a couple
+of practices to help ensure that developers don&#8217;t shoot &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://one-on-one.github.com">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="1:1 Engineering" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>1:1 Engineering</title>
+  <meta name="author" content="1:1 Engineering">
+
+  
+  <meta name="description" content="Expediency often rules the day in business, but at 1:1 we&#8217;ve establised a couple
+of practices to help ensure that developers don&#8217;t shoot &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="canonical" href="http://one-on-one.github.com">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="1:1 Engineering" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script type="text/javascript" src="/javascripts/jquery-tapir.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+
+</head>
+
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">1:1 Engineering</a></h1>
+  
+    <h2>Discoveries, solutions, &amp; inspiration.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+  <form action="/search.html" method="get">
+  <fieldset role="search">
+    <input class="search" type="text" name="query" results="0" placeholder="Search Site... "/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/05/16/engineering-practices-at-1-1/">Engineering Practices at 1:1</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-16T09:30:00-06:00" pubdate data-updated="true">May 16<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Expediency often rules the day in business, but at 1:1 we&#8217;ve establised a couple
+of practices to help ensure that developers don&#8217;t shoot themselves, <em>or the team</em>,
+in the foot.</p>
+
+<h2>No Hot Patches!</h2>
+
+<p>The definintion of hot-patch in this context means:
+<em>live code editing on production servers</em>.</p>
+
+<p>As crazy as this sounds, it has happened in the past.
+Sometimes the convenience seems too tempting&#8230; especially for minor experiments.
+But the convenience isn&#8217;t worth team members getting pulled out of bed in the
+wee hours only to discover a typo someone made in a live edit.</p>
+
+<p>It&#8217;s especially frustrating because it doesn&#8217;t leave a paper trail.
+The tools we employ, like Git, become effectively useless in this scenario.</p>
+
+<p><strong>Never make live code edits on the server! Always make a formal commit and deploy.</strong></p>
+
+<h2>Always Create a Topic Branch!</h2>
+
+<p>All new development should occur on a
+<a href="http://git-scm.com/book/en/Git-Branching-Branching-Workflows">topic branch</a>,
+not the master branch.</p>
+
+<p>The master branch should always be stable and production ready.
+A deploy might occur at any time, so the code on master must be production ready.</p>
+
+<p><strong>This rule is universal (no exceptions)</strong>&#8230; even for developers working on their own.
+Once the work is complete, a <a href="https://help.github.com/articles/using-pull-requests">pull request</a>
+should be created. The change-set should be code reviewed after the pull request has been created,
+<em>ideally by someone other than the original developer</em>.
+Once the pull request is approved, the topic branch should be merged into master.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/05/16/documenting-github-projects/">Documenting Github Projects</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-16T09:30:00-06:00" pubdate data-updated="true">May 16<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Our team has struggled with finding the best solution for project documentation.
+Some projects require internal documentation while others require public API docs.
+Several projects require both.</p>
+
+<p>Then I stumbled into how 37 Signals manages their <a href="https://github.com/37signals/api">public API docs</a>.
+They basically create a new public repo for each public API they need to document.</p>
+
+<p>This is great, but maintaining docs separate from the project can be challenging,
+so we&#8217;ve opted for having 2 document branches in our projects.</p>
+
+<ul>
+<li>doc</li>
+<li>gh-pages</li>
+</ul>
+
+
+<p>The <em>doc</em> branch is used for internal documentation.
+We delete all code after branch creation, then simply maintain an organized set of markdown files.</p>
+
+<p>The <em>gh-pages</em> branch is used for all public documentation.
+The great thing about <a href="http://pages.github.com/">github pages</a> is that the site they generate is always public&#8230;
+even for private repos. We leverage this to expose public docs.</p>
+
+<p>For a simple example, you can review one of our public APIs <a href="http://engineering.1on1.com/lead_assure/">here</a>.</p>
+
+<p>For those with access to the private repo, you can view the various doc branches.
+<a href="https://github.com/one-on-one/lead_assure/tree/doc">doc</a> <a href="https://github.com/one-on-one/lead_assure/tree/gh-pages">gh-pages</a></p>
+
+<p>Managing docs on the project itself helps ensure our docs get written and maintained.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/23/why-i-like-go/">Why I like Go: Porting Ruby&#8217;s State Jacket</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-23T09:51:00-06:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;m fairly new to professional software engineering and my start was not typical. I first started in academia with Prolog and Lisp; my background is in formal/mathematical philosophy and linguistics. In the last few months I have spent concentrated blocks of time on learning Nodejs, Clojure, Scala, and now Go.</p>
+
+<p>Beside the academic and professional development benefits of doing this, I have a practical reason: I dream of building a very fast, efficient, &#8220;smart&#8221;, and easy to use logging tool. By &#8220;smart&#8221; I mean applying machine learning and natural language processing to the semi-structured data found in production logs. This means I need support for large matrix multiplication, among other things. Ruby and Python simply do not fit the bill (for me). In evaluating Go I decided to port the <a href="https://github.com/hopsoft/state_jacket">Ruby project Statejacket by Nate Hopkins</a> to Go.</p>
+
+<p>If you just want to see code, the initial finished version is up on github now at <a href="https://github.com/jbowles/state_jacket">SateJacket Port</a>.</p>
+
+<p>You can also find similar projects:</p>
+
+<ul>
+<li><a href="https://github.com/whap/statejacket">Brian Johnson&#8217;s Go port of Ruby SateJacket</a></li>
+<li><a href="https://github.com/brentburgoyne/state-jacket-js">Brent Burgyone&#8217;s NodeJS port of Ruby StateJacket</a></li>
+</ul>
+
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/03/23/why-i-like-go/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/15/getting-started-with-octopress/">Getting Started with Octopress</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-15T08:45:00-06:00" pubdate data-updated="true">Mar 15<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h3>The good</h3>
+
+<p><a href="http://octopress.org/">Octopress</a> is an <strong>out of the box</strong> blogging solution that sits atop <a href="https://github.com/mojombo/jekyll">Jekyll</a>
+<em>a static site generator</em>.
+It&#8217;s great for folks who want to quickly get a blog up and running on <a href="https://github.com/">Github</a>.</p>
+
+<h3>The bad</h3>
+
+<p>Octopress is ripe with inconsistent and varied ways to customize the CSS, templates, partials, and conditional logic.
+This is anathema for anyone who wants a sensible way to truly control things.</p>
+
+<p>Luckily, I&#8217;ve customized this blog till it&#8217;s &#8220;good enough&#8221;
+so my teammates shouldn&#8217;t have to experience the pain that I went through.</p>
+
+<h3>The future</h3>
+
+<p>I highly recommend considering a vanilla Jekyll solution over Octopress&#8230;
+even if you are already running Octopress.</p>
+
+<p>Having said all of that, here are some tips to help you get up to speed quickly with Octopress.</p>
+
+<h2>Quick Start</h2>
+
+<p>Here&#8217;s how to get setup as a writer for this blog.
+Run the following commands in your shell.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>git clone git@github.com:one-on-one/one-on-one.github.com.git
+</span><span class='line'>cd one-on-one.github.com
+</span><span class='line'>bundle
+</span><span class='line'>rake setup_github_pages[git@github.com:one-on-one/one-on-one.github.com.git]
+</span><span class='line'>rake -T</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>zsh users</strong>: You will want to run <code>rake setup_github_pages[git@github.com:one-on-one/one-on-one.github.com.git]</code></p>
+
+<p>The last command lists the rake tasks that Octopress makes available to you.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/03/15/getting-started-with-octopress/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/05/16/engineering-practices-at-1-1/">Engineering Practices at 1:1</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/05/16/documenting-github-projects/">Documenting Github Projects</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/23/why-i-like-go/">Why I like Go: Porting Ruby&#8217;s State Jacket</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/03/15/getting-started-with-octopress/">Getting Started with Octopress</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - 1:1 Engineering -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = '11engineering';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

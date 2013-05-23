@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: github | 1:1 Engineering]]></title>
+  <link href="http://one-on-one.github.com/blog/categories/github/atom.xml" rel="self"/>
+  <link href="http://one-on-one.github.com/"/>
+  <updated>2013-05-23T11:49:39-06:00</updated>
+  <id>http://one-on-one.github.com/</id>
+  <author>
+    <name><![CDATA[1:1 Engineering]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Documenting Github Projects]]></title>
+    <link href="http://one-on-one.github.com/blog/2013/05/16/documenting-github-projects/"/>
+    <updated>2013-05-16T09:30:00-06:00</updated>
+    <id>http://one-on-one.github.com/blog/2013/05/16/documenting-github-projects</id>
+    <content type="html"><![CDATA[<p>Our team has struggled with finding the best solution for project documentation.
+Some projects require internal documentation while others require public API docs.
+Several projects require both.</p>
+
+<p>Then I stumbled into how 37 Signals manages their <a href="https://github.com/37signals/api">public API docs</a>.
+They basically create a new public repo for each public API they need to document.</p>
+
+<p>This is great, but maintaining docs separate from the project can be challenging,
+so we've opted for having 2 document branches in our projects.</p>
+
+<ul>
+<li>doc</li>
+<li>gh-pages</li>
+</ul>
+
+
+<p>The <em>doc</em> branch is used for internal documentation.
+We delete all code after branch creation, then simply maintain an organized set of markdown files.</p>
+
+<p>The <em>gh-pages</em> branch is used for all public documentation.
+The great thing about <a href="http://pages.github.com/">github pages</a> is that the site they generate is always public...
+even for private repos. We leverage this to expose public docs.</p>
+
+<p>For a simple example, you can review one of our public APIs <a href="http://engineering.1on1.com/lead_assure/">here</a>.</p>
+
+<p>For those with access to the private repo, you can view the various doc branches.
+<a href="https://github.com/one-on-one/lead_assure/tree/doc">doc</a> <a href="https://github.com/one-on-one/lead_assure/tree/gh-pages">gh-pages</a></p>
+
+<p>Managing docs on the project itself helps ensure our docs get written and maintained.</p>
+]]></content>
+  </entry>
+  
+</feed>
