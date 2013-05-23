@@ -33,7 +33,7 @@ The tools we employ, like Git, become effectively useless in this scenario.
 
 ## Always Create a Topic Branch!
 
-All new development should be occur on a
+All new development should occur on a
 [topic branch](http://git-scm.com/book/en/Git-Branching-Branching-Workflows),
 not the master branch.
 
@@ -42,7 +42,7 @@ A deploy might occur at any time, so the code on master must be production ready
 
 **This rule is universal (no exceptions)**... even for developers working on their own.
 Once the work is complete, a [pull request](https://help.github.com/articles/using-pull-requests)
-should be created. After the pull request is created the change-set should be code reviewed,
+should be created. The change-set should be code reviewed after the pull request has been created,
 *ideally by someone other than the original developer*.
 Once the pull request is approved, the topic branch should be merged into master.
 
